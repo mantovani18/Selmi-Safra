@@ -185,7 +185,7 @@ main { padding: 10px 0 44px; }
 .section { margin-top: 18px; padding: 24px; }
 .section h2 { font-size: clamp(1.5rem, 3vw, 2.2rem); margin-bottom: 14px; }
 .video-shell { overflow: hidden; border-radius: 18px; border: 1px solid rgba(255,255,255,0.14); background: rgba(0,0,0,0.18); }
-.video-player { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.video-player { width: 100%; aspect-ratio: 16 / 9; object-fit: contain; background: #000; }
 .video-fallback { margin: 12px 0 0; color: var(--muted); }
 .video-fallback a { color: var(--accent-2); font-weight: 700; }
 
