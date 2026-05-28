@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Guia simples do produtor rural Selmi com vídeo de nota fiscal eletrônica e contato de suporte." />
+  <title>Guia do Produtor Rural | Selmi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="util/Selmi_logo.jpg" alt="Logo da Selmi" class="brand__logo" />
+      <div>
+        <p class="eyebrow">Selmi</p>
+        <h1>Guia do Produtor Rural</h1>
+      </div>
+    </div>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span class="sr-only">Abrir menu</span>
+    </button>
+
+    <nav id="main-nav" class="nav" aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#video">Vídeo</a>
+      <a href="#suporte">Suporte</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero__content">
+        <p class="hero__tag">Guia rápido</p>
+        <h2>Como fazer nota fiscal eletrônica</h2>
+        <p class="hero__text">Veja o vídeo e, se precisar, fale com o suporte.</p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#video">Assistir ao vídeo</a>
+          <a class="button button--ghost" href="#suporte">Falar com suporte</a>
+        </div>
+      </div>
+
+      <aside class="hero__card">
+        <img src="util/NFF_foto.jpg" alt="Imagem do resumo" class="card-hero-image" />
+        <div class="hero__card__content">
+          <p class="card-kicker">Resumo</p>
+          <h3>Instale o aplicativo</h3>
+          <ul class="highlight-list">
+          
+          </ul>
+          <div class="install-links">
+            <a class="install-button" href="https://apps.apple.com/app/idYOUR_APP_ID" target="_blank" rel="noopener noreferrer" aria-label="Instalar para iPhone">
+              <img src="util/icons8-logo-ios-50.png" alt="App Store" class="install-icon" />
+              <span>Instalar (iPhone)</span>
+            </a>
+
+            <a class="install-button install-button--android" href="https://play.google.com/store/apps/details?id=YOUR.APP.ID" target="_blank" rel="noopener noreferrer" aria-label="Instalar para Android">
+              <img src="util/icons8-android-os-50.png" alt="Google Play" class="install-icon" />
+              <span>Instalar (Android)</span>
+            </a>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section" id="video">
+      <p class="section__eyebrow">Vídeo</p>
+      <h2>Assista ao passo a passo</h2>
+      <div class="video-shell">
+        <video controls preload="metadata" class="video-player">
+          <source src="util/NF-Rural.mp4" type="video/mp4" />
+          Seu navegador não suporta a reprodução de vídeo.
+        </video>
+      </div>
+      <p class="video-fallback">Se precisar, <a href="util/NF-Rural.mp4" download>baixe o vídeo aqui</a>.</p>
+    </section>
+
+    <section class="section" id="suporte">
+      <p class="section__eyebrow">Suporte</p>
+      <h2>Em caso de dúvidas, fale com o Técnico Agrícola</h2>
+      <a class="support-callout__link" href="https://wa.me/554399842355" target="_blank" rel="noopener noreferrer">Contato via WhatsApp</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Guia do Produtor Rural • Selmi</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
